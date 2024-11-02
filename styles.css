@@ -1,0 +1,482 @@
+body {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 70px;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+}
+
+header a img.logo {
+    width: 130px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+
+
+header nav ul {
+    display: flex;
+    margin-right: 360px;
+    margin-left: -30px;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+header nav ul li, a {
+    /* width: 100%; */
+    margin: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+header nav ul li:hover {
+    border: 2px solid rgb(228, 0, 43);
+    border-radius: 50px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+
+header .sign_in{ 
+background-color: rgb(228, 0, 43);
+color: white;
+border-radius: 20px;
+padding: 10px 15px;
+padding-left:28px ;
+padding-right:28px ;
+font-size: 13px;
+font-weight: bold;
+margin-right: 10px;
+text-transform: capitalize;
+}
+
+header .sign_in:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(228, 0, 43);
+    border: 2px solid rgb(228, 0, 43);
+    transition: 0.3s;
+}
+
+header a img.contact {
+    width: 58px;
+    margin-right: 4px;
+}
+
+/* banner */
+
+.banner {
+    margin-top: 70px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* content */
+
+.content {
+    margin: 60px 110px;
+    display: flex;
+}
+
+.content .content1{
+    /* width: fit-content; */
+    width: 65%;
+    padding-top: 10px ;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.content .content1 h1{
+    font-size: 25px;
+}
+
+.content .content1 .vidio1{
+    border-radius: 10px;
+    width: 100%;
+    height: 85%;
+}
+
+/* content2 */
+
+.content .content2 {
+    padding-top: 10px ;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 35%;
+    margin-left: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content .content2 .h1-dan-a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .content2 .h1-dan-a a {
+    text-transform: lowercase;
+    color: rgb(228, 0, 43);
+    font-size: 14px;
+}
+
+.content .content2 .h1-dan-a a:hover {
+    color: rgb(163, 0, 30);
+}
+
+.content .content2 h1 {
+    font-size: 25px;
+}
+
+.content .content2 .kolom {
+    display: flex;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 15px 3px;
+    margin-bottom: 9px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.content .content2 .kolom p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.content .content2 .kolom img{
+    width:100px;
+    height: 60PX;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+
+/* menu bawah */
+
+.menu_bawah {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu_bawah ul {
+    display: flex;
+    /* border: 2px solid; */
+    width: 100%;
+    justify-content: center;
+    margin: 0px 80px;
+}
+
+.menu_bawah ul li {
+    list-style: none;
+    margin: 0px 10px;
+    flex-wrap: nowrap;
+    width: 90%;
+    /* border: 2px solid; */
+}
+
+.menu_bawah ul li img {
+    /* justify-content: center;   */
+    margin-left: 34%;
+    width: 65px;
+}
+
+
+.menu_bawah ul li a h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu_bawah ul li a p {
+    font: 14px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu_bawah ul li a.see_more {
+    margin-left: 27%;
+    padding: 5px 15px;
+    border: 1.5px solid rgb(228, 0, 43);
+    border-radius: 30px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(228, 0, 43);
+    font-weight:600;
+    text-transform: lowercase;
+}
+
+.menu_bawah ul li a.see_more:hover {
+    color: white;
+    background-color: rgb(228, 0, 43);
+    transition: 0.3s;
+}
+
+
+/* footer */
+footer {
+    background-color: rgb(16, 24, 40);
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(16, 24, 40);
+}
+
+.footer1 .content1 {
+    margin: 60px 125px;
+}
+
+.footer1 .content1 h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.footer1 .content1 h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight:normal;
+    margin-bottom: 44px;
+}
+
+.footer1 .content1 a {
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: lowercase;
+    background-color: rgb(228, 0, 43);
+    padding: 8px 13px;
+    border-radius: 50px;
+    margin-left: -1px;
+}
+
+.footer1 .content1 a:hover {
+    border: 1px solid rgb(228, 0, 43);
+    color: rgb(228, 0, 43);
+    background-color: white;
+    transition: 0.2s;
+}
+
+.footer1 .content1 p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 44px;
+    text-transform: lowercase;
+}
+
+.footer1 .content1 .app .playstore, .appstore{
+    width: 180px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.footer1 .content1 .app .playstore:hover, .appstore:hover {
+    border: 1px solid white;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.footer1 .handhone img.hp{
+    width: 350px;
+    margin-right: 125px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.footer2 {
+    background-color: rgb(16, 24, 40);
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.footer2 table {
+    padding-left: 40px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+
+.footer2 table th {
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-right: 75px;   
+}
+
+.footer2 table tr {
+}
+
+.footer2 table td{
+    text-align: left;
+    color: rgb(152, 162, 179);
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
+
+
+.footer2 .footer2_bagian2 {
+    margin-left: 220px;
+    margin-top: -10px;
+    display: flex;
+    width: fit-content;
+    width: 15%;
+}
+
+.footer2 .footer2_bagian2 h1 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 22px ;
+    text-transform: uppercase;
+}
+
+.footer2 .app2 .playstore2, .appstore2 {
+    width: 130px;
+    margin-left: 22px;
+    padding: 2px 0px;
+    cursor: pointer;
+}
+
+.footer2 .app2 .playstore2:hover, .appstore2:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.footer3 {
+    background-color: rgb(16, 24, 40);
+    color: rgb(152, 162, 179);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 0px 20px;
+}
+
+.footer3 p {
+    font-size: 12px;
+    /* margin-left: 10px; */
+    margin-top: 40px;
+    color: rgb(152, 162, 179);
+}
+
+.footer3 p .span1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+}
+
+.footer3 p .span2 {
+    padding-left: 5px ;
+}
+
+.footer3 .logo_sosial {
+    /* margin-right: 43px; */
+    border: none;
+}
+
+.footer3 .logo_sosial ul{
+    display: flex;
+}
+
+.footer3 .logo_sosial ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 300px;
+}
+
+.footer3 .logo_sosial ul li img {
+    height:18px;
+    width: 20px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 300px;
+    cursor: pointer;
+}
+
+.footer3 .logo_sosial ul li img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0.5px rgba(255, 255, 255, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* menu order now */
+
+.order_now {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.order_now img {
+    width: 85px;
+    margin-bottom: 8px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.order_now a {
+    border: 1px solid rgb(228, 0, 43);
+    background-color: rgb(228, 0, 43);
+    border-radius: 20px;
+    padding: 8px 10px;
+    width: fit-content;
+    text-transform: capitalize;
+}
+
+
+
+/* phone */
+
+/* 
+@media only screen and (max-width:640px){
+    body {
+        
+    }
+} */
